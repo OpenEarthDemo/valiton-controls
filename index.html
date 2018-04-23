@@ -1,0 +1,2798 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://github.com/tango-controls -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com/">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com/">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-eYhUAIv4O/68uoHkCtYXVTxc5Q92+NKMtOryYR5Svt7vDp34XkrggN5j4lrKyiB0B2HUyrAYvAb3tlhmFGhivg==" rel="stylesheet" href="./Valiton_files/frameworks-592c4aa40e940d1b0607a3cf272916ff.css">
+  <link crossorigin="anonymous" media="all" integrity="sha512-WZklPJpB37+ljTfVNn0494msEFLupIvcsVPpv1UCNJvCJAf0oFgpGlw4+OV4hQ3WMFTKbmuSVLk6uMmWuhnuqQ==" rel="stylesheet" href="./Valiton_files/github-0c21e211e4fd150ac107ccf0fcf751e5.css">
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Tango Control System</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/15830606?s=280&amp;v=4"><meta property="og:site_name" content="GitHub"><meta property="og:type" content="profile"><meta property="og:title" content="Tango Control System"><meta property="og:url" content="https://github.com/tango-controls"><meta property="og:description" content="The official place for Tango kernel related projects"><meta property="profile:username" content="tango-controls">
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjY5Mjg4NDI2OjQ3YzA4YzU1ZjFmNGIyZjdmMzJmNWU0Yzc1ZDFkNDY4Y2I1MWQ0MjMxMTIyZTk2ODZkMjJiZWI1N2NiZTZmNzg=--30568b96e4a05d0cdd53cb7e58f8c8237e5a50df">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="https://github.com/sessions/sudo_modal">
+  <meta name="request-id" content="62D0:7244:5799AF5:95482FA:5ADE0206" data-pjax-transient="">
+
+    <meta name="hovercard-subject-tag" content="organization:15830606" data-pjax-transient="">
+
+  
+
+  <meta name="selected-link" value="/tango-controls" data-pjax-transient="">
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com"><meta name="octolytics-app-id" content="github"><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event"><meta name="octolytics-dimension-request_id" content="62D0:7244:5799AF5:95482FA:5ADE0206"><meta name="octolytics-dimension-region_edge" content="iad"><meta name="octolytics-dimension-region_render" content="iad"><meta name="octolytics-actor-id" content="29800412"><meta name="octolytics-actor-login" content="shashidande"><meta name="octolytics-actor-hash" content="5adfaa12b5ca3bdb24e38e7d7462b8451cccd4080ab3672e43db64610d001f16">
+<meta name="analytics-location" content="/&lt;org-login&gt;" data-pjax-transient="true">
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="shashidande">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZmIyZTlmODdhY2U4MmIzMjQxYjkzMTMzNzg3YTdiZmFmNzY4MGJlZjk5ZjQyM2UyNDgyOGMyM2M2ZmQ5NDVhOHx7InJlbW90ZV9hZGRyZXNzIjoiMTM0LjEzMi40MC4yMjIiLCJyZXF1ZXN0X2lkIjoiNjJEMDo3MjQ0OjU3OTlBRjU6OTU0ODJGQTo1QURFMDIwNiIsInRpbWVzdGFtcCI6MTUyNDQ5ODk4NywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="0cfc8b0911997987eeee05906165a21c04278d2e">
+
+  <meta http-equiv="x-pjax-version" content="34d2721e36dd9c71c369fe7b35e3aad4">
+  
+
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-support" content="true">
+
+<link rel="manifest" href="https://github.com/manifest.json" crossorigin="use-credentials">
+
+  </head>
+
+  <body class="logged-in env-production org">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="https://github.com/tango-controls#start-of-content" tabindex="1" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<header class="Header  f5" role="banner">
+  <div class="d-flex flex-justify-between px-3 container-lg">
+    <div class="d-flex flex-justify-between ">
+      <div class="">
+        <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+
+      </div>
+
+    </div>
+
+    <div class="HeaderMenu d-flex flex-justify-between flex-auto">
+      <div class="d-flex">
+            <div class="">
+              <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --><form class="js-site-search-form" data-scoped-search-url="/orgs/tango-controls/search" data-unscoped-search-url="/search" action="https://github.com/orgs/tango-controls/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="https://github.com/organizations/tango-controls">This organization</a>
+      <input type="text" class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable" data-hotkey="s,/" name="q" value="" placeholder="Search" aria-label="Search this organization" data-unscoped-placeholder="Search GitHub" data-scoped-placeholder="Search" autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type">
+    </label>
+</form></div>
+
+            </div>
+
+          <ul class="d-flex pl-2 flex-items-center text-bold list-style-none" role="navigation">
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-hotkey="g p" data-ga-click="Header, click, Nav menu - item:pulls context:user" aria-label="Pull requests you created" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" href="https://github.com/pulls">
+                Pull requests
+</a>            </li>
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-hotkey="g i" data-ga-click="Header, click, Nav menu - item:issues context:user" aria-label="Issues you created" data-selected-links="/issues /issues/assigned /issues/mentioned /issues" href="https://github.com/issues">
+                Issues
+</a>            </li>
+                <li>
+                  <a class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-selected-links=" /marketplace" href="https://github.com/marketplace">
+                    Marketplace
+</a>                </li>
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="https://github.com/explore">
+                Explore
+</a>            </li>
+          </ul>
+      </div>
+
+      <div class="d-flex">
+        
+<ul class="user-nav d-flex flex-items-center list-style-none" id="user-links">
+  <li class="dropdown js-menu-container">
+    <span class="d-inline-block  px-2">
+      
+    <a aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s  js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="notification-changed:29800412" href="https://github.com/notifications">
+        <span class="mail-status "></span>
+        <svg class="octicon octicon-bell" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"></path></svg>
+</a>
+    </span>
+  </li>
+
+  <li class="dropdown js-menu-container">
+    <details class="dropdown-details details-reset js-dropdown-details d-flex px-2 flex-items-center">
+      <summary class="HeaderNavlink" aria-label="Create new…" data-ga-click="Header, create new, icon:add">
+        <svg class="octicon octicon-plus float-left mr-1 mt-1" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5z"></path></svg>
+        <span class="dropdown-caret mt-1"></span>
+      </summary>
+
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="https://github.com/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a class="dropdown-item" href="https://github.com/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a class="dropdown-item" href="https://github.com/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+
+      </ul>
+    </details>
+  </li>
+
+  <li class="dropdown js-menu-container">
+
+    <details class="dropdown-details details-reset js-dropdown-details d-flex pl-2 flex-items-center">
+      <summary class="HeaderNavlink name mt-1" aria-label="View profile and more" data-ga-click="Header, show menu, icon:avatar">
+        <img alt="@shashidande" class="avatar float-left mr-1" src="./Valiton_files/29800412" height="20" width="20">
+        <span class="dropdown-caret"></span>
+      </summary>
+
+      <ul class="dropdown-menu dropdown-menu-sw">
+        <li class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">shashidande</strong>
+        </li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="https://github.com/shashidande" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a></li>
+        <li><a class="dropdown-item" href="https://github.com/shashidande?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a></li>
+          <li><a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, your gists, text:your gists">Your gists</a></li>
+
+        <li class="dropdown-divider"></li>
+
+        <li><a class="dropdown-item" href="https://help.github.com/" data-ga-click="Header, go to help, text:help">
+          Help
+        </a></li>
+
+        <li><a class="dropdown-item" href="https://github.com/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a></li>
+
+        <li><!-- '"` --><!-- </textarea></xmp> --><form class="logout-form" action="https://github.com/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="fX+7ZSxQ9oi3oMceRWTcP6SrH/p0rQqEmqa7x0ndr4EQeC8EJPlDvaGjT3XjLrFuepqOePoVkO0BX79q7VuNzw==">
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+        </form></li>
+      </ul>
+    </details>
+  </li>
+</ul>
+
+
+
+        <!-- '"` --><!-- </textarea></xmp> --><form class="sr-only right-0" action="https://github.com/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="8hQPnMSOowkFsl0HMY4w/hlovzaDB2gm4aLwdF4PeWOfE5v9zCcWPBOx1WyXxF2vx1kutA2/8k96W/TZ+olbLQ==">
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </div>
+</header>
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+      
+      <div id="js-pjax-container" data-pjax-container="">
+        
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Organization">
+  
+
+<header class="orghead">
+  <div class="container">
+
+    <div class="TableObject org-header-wrapper mb-4">
+        <img itemprop="image" class="TableObject-item avatar" src="./Valiton_files/15830606" width="100" height="100" alt="@tango-controls">
+      <div class="TableObject-item TableObject-item--primary">
+        <h1 class="org-name lh-condensed">
+          Tango Control System
+            <a class="edit-org tooltipped tooltipped-e" href="https://github.com/contact/report-abuse?report=tango-controls" aria-label="Report abuse" data-ga-click="Orgs, report, location:profile header; text:Report abuse tooltip">
+              <svg class="octicon octicon-stop" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 1H4L0 5v6l4 4h6l4-4V5l-4-4zm3 9.5L9.5 14h-5L1 10.5v-5L4.5 2h5L13 5.5v5zM6 4h2v5H6V4zm0 6h2v2H6v-2z"></path></svg>
+            </a>
+        </h1>
+          <p class="org-description" itemprop="description"></p><div>The official place for Tango kernel related projects</div><p></p>
+          <ul class="org-header-meta has-blog has-email">
+              <li class="meta-item">
+                <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg>
+                <a rel="nofollow" itemprop="url" class="text-gray" title="http://www.tango-controls.org" href="http://www.tango-controls.org/">http://www.tango-controls.org</a>
+              </li>
+              <li class="meta-item">
+                <svg class="octicon octicon-mail" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 4v8c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H1c-.55 0-1 .45-1 1zm13 0L7 9 1 4h12zM1 5.5l4 3-4 3v-6zM2 12l3.5-3L7 10.5 8.5 9l3.5 3H2zm11-.5l-4-3 4-3v6z"></path></svg>
+                <a class="text-gray" itemprop="email" href="mailto:info@tango-controls.org">info@tango-controls.org</a>
+              </li>
+          </ul>
+      </div>
+    </div>
+
+    <nav class="orgnav" role="navigation">
+  <a class="pagehead-tabs-item selected" href="https://github.com/tango-controls">
+    <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+    Repositories
+    <span class="Counter">45</span>
+  </a>
+
+
+    <a class="pagehead-tabs-item " href="https://github.com/orgs/tango-controls/people">
+      <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"></path></svg>
+      People
+      <span class="Counter">4</span>
+    </a>
+
+
+    <a class="pagehead-tabs-item " href="https://github.com/orgs/tango-controls/projects" data-hotkey="g b">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"></path></svg>
+      Projects
+      <span class="Counter">0</span>
+    </a>
+
+</nav>
+
+  </div>
+</header>
+
+
+  <div class="org-profile container js-pinned-repos-reorder-container">
+
+      <h2 class="f4 mb-3 text-normal">
+        Pinned repositories
+        <img src="./Valiton_files/octocat-spinner-32.gif" width="13" class="spinner pinned-repos-spinner js-pinned-repos-spinner" alt="">
+        <span class="pinned-repos-reorder-error js-pinned-repos-reorder-message" role="status" aria-live="polite" data-error-text="Something went wrong." data-success-text="Order updated."></span>
+      </h2>
+        <ol class="pinned-repos-list org-pinned-repos-list mb-4 js-pinned-repos-reorder-list">
+    <li class="pinned-repo-item org-pinned-repo-item p-3 mb-3 border border-gray-dark rounded-1 js-pinned-repo-list-item public source  sortable-button-item">
+      <div class="pinned-repo-item-content">
+        <span class="d-block position-relative">
+            <a href="https://github.com/tango-controls/TangoTickets" class="text-bold">
+          <span class="repo js-repo" title="TangoTickets">TangoTickets</span>
+          </a>
+        </span>
+
+
+        <p class="pinned-repo-desc text-gray text-small d-block mt-2 mb-3">The official place to create an issue/ticket related to Tango when it impacts several repositories or you don't know where to create your issue</p>
+
+        <p class="mb-0 f6 text-gray">
+            <a href="https://github.com/tango-controls/TangoTickets/stargazers" class="pinned-repo-meta muted-link">
+              <svg aria-label="stars" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+              3
+            </a>
+        </p>
+      </div>
+    </li>
+    <li class="pinned-repo-item org-pinned-repo-item p-3 mb-3 border border-gray-dark rounded-1 js-pinned-repo-list-item public source  sortable-button-item">
+      <div class="pinned-repo-item-content">
+        <span class="d-block position-relative">
+            <a href="https://github.com/tango-controls/cppTango" class="text-bold">
+          <span class="repo js-repo" title="cppTango">cppTango</span>
+          </a>
+        </span>
+
+
+        <p class="pinned-repo-desc text-gray text-small d-block mt-2 mb-3">TANGO kernel c++ implementation</p>
+
+        <p class="mb-0 f6 text-gray">
+              <span class="repo-language-color pinned-repo-meta" style="background-color:#f34b7d;"></span>
+            C++
+            <a href="https://github.com/tango-controls/cppTango/stargazers" class="pinned-repo-meta muted-link">
+              <svg aria-label="stars" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+              19
+            </a>
+            <a href="https://github.com/tango-controls/cppTango/network" class="pinned-repo-meta muted-link">
+              <svg aria-label="forks" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+              17
+            </a>
+        </p>
+      </div>
+    </li>
+    <li class="pinned-repo-item org-pinned-repo-item p-3 mb-3 border border-gray-dark rounded-1 js-pinned-repo-list-item public source  sortable-button-item">
+      <div class="pinned-repo-item-content">
+        <span class="d-block position-relative">
+            <a href="https://github.com/tango-controls/JTango" class="text-bold">
+          <span class="repo js-repo" title="JTango">JTango</span>
+          </a>
+        </span>
+
+
+        <p class="pinned-repo-desc text-gray text-small d-block mt-2 mb-3">TANGO kernel Java implementation</p>
+
+        <p class="mb-0 f6 text-gray">
+              <span class="repo-language-color pinned-repo-meta" style="background-color:#b07219;"></span>
+            Java
+            <a href="https://github.com/tango-controls/JTango/stargazers" class="pinned-repo-meta muted-link">
+              <svg aria-label="stars" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+              4
+            </a>
+            <a href="https://github.com/tango-controls/JTango/network" class="pinned-repo-meta muted-link">
+              <svg aria-label="forks" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+              7
+            </a>
+        </p>
+      </div>
+    </li>
+    <li class="pinned-repo-item org-pinned-repo-item p-3 mb-3 border border-gray-dark rounded-1 js-pinned-repo-list-item public source  sortable-button-item">
+      <div class="pinned-repo-item-content">
+        <span class="d-block position-relative">
+            <a href="https://github.com/tango-controls/pytango" class="text-bold">
+          <span class="repo js-repo" title="pytango">pytango</span>
+          </a>
+        </span>
+
+
+        <p class="pinned-repo-desc text-gray text-small d-block mt-2 mb-3">Python binding to Tango C++</p>
+
+        <p class="mb-0 f6 text-gray">
+              <span class="repo-language-color pinned-repo-meta" style="background-color:#3572A5;"></span>
+            Python
+            <a href="https://github.com/tango-controls/pytango/stargazers" class="pinned-repo-meta muted-link">
+              <svg aria-label="stars" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+              24
+            </a>
+            <a href="https://github.com/tango-controls/pytango/network" class="pinned-repo-meta muted-link">
+              <svg aria-label="forks" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+              22
+            </a>
+        </p>
+      </div>
+    </li>
+    <li class="pinned-repo-item org-pinned-repo-item p-3 mb-3 border border-gray-dark rounded-1 js-pinned-repo-list-item public source  sortable-button-item">
+      <div class="pinned-repo-item-content">
+        <span class="d-block position-relative">
+            <a href="https://github.com/tango-controls/rest-api" class="text-bold">
+          <span class="repo js-repo" title="rest-api">rest-api</span>
+          </a>
+        </span>
+
+
+        <p class="pinned-repo-desc text-gray text-small d-block mt-2 mb-3">Tango REST API specification</p>
+
+        <p class="mb-0 f6 text-gray">
+              <span class="repo-language-color pinned-repo-meta" style="background-color:#b07219;"></span>
+            Java
+            <a href="https://github.com/tango-controls/rest-api/stargazers" class="pinned-repo-meta muted-link">
+              <svg aria-label="stars" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+              5
+            </a>
+        </p>
+      </div>
+    </li>
+    <li class="pinned-repo-item org-pinned-repo-item p-3 mb-3 border border-gray-dark rounded-1 js-pinned-repo-list-item public source  sortable-button-item">
+      <div class="pinned-repo-item-content">
+        <span class="d-block position-relative">
+            <a href="https://github.com/tango-controls/tango-webapp" class="text-bold">
+          <span class="repo js-repo" title="tango-webapp">tango-webapp</span>
+          </a>
+        </span>
+
+
+        <p class="pinned-repo-desc text-gray text-small d-block mt-2 mb-3">General purpose Tango web application</p>
+
+        <p class="mb-0 f6 text-gray">
+              <span class="repo-language-color pinned-repo-meta" style="background-color:#f1e05a;"></span>
+            JavaScript
+            <a href="https://github.com/tango-controls/tango-webapp/stargazers" class="pinned-repo-meta muted-link">
+              <svg aria-label="stars" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+              6
+            </a>
+            <a href="https://github.com/tango-controls/tango-webapp/network" class="pinned-repo-meta muted-link">
+              <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+              1
+            </a>
+        </p>
+      </div>
+    </li>
+
+</ol>
+
+
+
+      
+<div class="user-profile-repo-filter border-bottom border-gray-dark pb-3 mb-3">
+  <!-- '"` --><!-- </textarea></xmp> --><form data-pjax="#org-repositories" data-pjax-preserve-scroll="true" class="TableObject" data-results-container="org-repositories" role="search" action="https://github.com/tango-controls" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+    <div class="TableObject-item TableObject-item--primary">
+      <input type="search" id="your-repos-filter" name="q" class="form-control width-full js-autosearch-field" placeholder="Search repositories…" autocomplete="off" aria-label="Search repositories…" value="">
+    </div>
+
+    <div class="TableObject-item text-right">
+      <div class="select-menu ml-2  d-inline-block js-menu-container js-select-menu select-menu-modal-right">
+        <button class="btn select-menu-button js-menu-target" type="button" aria-haspopup="true" aria-expanded="false">
+          <i>Type:</i>
+          <span class="js-select-button">
+            All
+          </span>
+        </button>
+
+        <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+          <div class="select-menu-modal">
+            <div class="select-menu-header text-left">
+              <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+              <span class="select-menu-title">Select type:</span>
+            </div>
+            <div class="select-menu-list" role="menu">
+                <button type="submit" class="width-full select-menu-item js-navigation-item selected">
+                  <input type="radio" name="type" id="type_" value="" checked="checked">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <span class="select-menu-item-text js-select-button-text">All</span>
+                </button>
+                <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                  <input type="radio" name="type" id="type_source" value="source">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <span class="select-menu-item-text js-select-button-text">Sources</span>
+                </button>
+                <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                  <input type="radio" name="type" id="type_fork" value="fork">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <span class="select-menu-item-text js-select-button-text">Forks</span>
+                </button>
+                <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                  <input type="radio" name="type" id="type_archived" value="archived">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <span class="select-menu-item-text js-select-button-text">Archived</span>
+                </button>
+                <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                  <input type="radio" name="type" id="type_mirror" value="mirror">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <span class="select-menu-item-text js-select-button-text">Mirrors</span>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="select-menu ml-1  d-inline-block js-menu-container js-select-menu select-menu-modal-right">
+          <button class="btn select-menu-button js-menu-target" type="button" aria-haspopup="true" aria-expanded="false">
+            <i>Language:</i>
+            <span class="js-select-button">
+              All
+            </span>
+          </button>
+
+          <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+            <div class="select-menu-modal">
+              <div class="select-menu-header text-left">
+                <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+                <span class="select-menu-title">Select language:</span>
+              </div>
+
+              <div class="select-menu-list" role="menu">
+                <button type="submit" class="width-full select-menu-item js-navigation-item selected">
+                  <input type="radio" name="language" id="language_" value="" checked="checked">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <span class="select-menu-item-text js-select-button-text">All</span>
+                </button>
+                  <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                    <input type="radio" name="language" id="language_c" value="c">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                    <span class="select-menu-item-text js-select-button-text">C</span>
+                  </button>
+                  <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                    <input type="radio" name="language" id="language_c__" value="c++">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                    <span class="select-menu-item-text js-select-button-text">C++</span>
+                  </button>
+                  <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                    <input type="radio" name="language" id="language_html" value="html">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                    <span class="select-menu-item-text js-select-button-text">HTML</span>
+                  </button>
+                  <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                    <input type="radio" name="language" id="language_java" value="java">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                    <span class="select-menu-item-text js-select-button-text">Java</span>
+                  </button>
+                  <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                    <input type="radio" name="language" id="language_javascript" value="javascript">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                    <span class="select-menu-item-text js-select-button-text">JavaScript</span>
+                  </button>
+                  <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                    <input type="radio" name="language" id="language_makefile" value="makefile">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                    <span class="select-menu-item-text js-select-button-text">Makefile</span>
+                  </button>
+                  <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                    <input type="radio" name="language" id="language_perl" value="perl">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                    <span class="select-menu-item-text js-select-button-text">Perl</span>
+                  </button>
+                  <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                    <input type="radio" name="language" id="language_python" value="python">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                    <span class="select-menu-item-text js-select-button-text">Python</span>
+                  </button>
+                  <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                    <input type="radio" name="language" id="language_shell" value="shell">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                    <span class="select-menu-item-text js-select-button-text">Shell</span>
+                  </button>
+                  <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                    <input type="radio" name="language" id="language_sqlpl" value="sqlpl">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                    <span class="select-menu-item-text js-select-button-text">SQLPL</span>
+                  </button>
+                  <button type="submit" class="width-full select-menu-item js-navigation-item ">
+                    <input type="radio" name="language" id="language_tex" value="tex">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                    <span class="select-menu-item-text js-select-button-text">TeX</span>
+                  </button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="TableObject-item text-right">
+    </div>
+</form></div>
+
+
+    <div id="org-repositories" data-pjax-container="">
+      <div class="col-8 d-inline-block">
+  <div class="org-repos repo-list">
+
+    
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/tango-webapp" itemprop="name codeRepository">
+        tango-webapp</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          General purpose Tango web application
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-76099789" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-76099789" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.44 9,1.0 12,1.0 15,1.0 18,1.0 21,1.88 24,1.0 27,1.0 30,1.0 33,1.0 36,1.88 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,3.63 57,5.38 60,1.0 63,11.94 66,26.81 69,29.0 72,4.5 75,1.88 78,1.44 81,1.44 84,1.0 87,1.0 90,1.0 93,1.0 96,4.5 99,1.44 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.44 126,4.0600000000000005 129,1.0 132,1.44 135,7.56 138,1.88 141,5.38 144,2.75 147,1.44 150,1.44 153,3.19 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, 2.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-76099789); mask: url(#sparkline-76099789)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="https://github.com/search?q=topic%3Atango-controls+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:tango-controls,repository_id:76099789,repository_nwo:tango-controls/tango-webapp,repository_public:true,repository_is_fork:false">
+            tango-controls
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango-controls-rest+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:tango-controls-rest,repository_id:76099789,repository_nwo:tango-controls/tango-webapp,repository_public:true,repository_is_fork:false">
+            tango-controls-rest
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango-controls-web+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:tango-controls-web,repository_id:76099789,repository_nwo:tango-controls/tango-webapp,repository_public:true,repository_is_fork:false">
+            tango-controls-web
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#f1e05a;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          JavaScript
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/tango-webapp/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          6
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/tango-webapp/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          1
+        </a>
+
+        <span class="mr-3">
+          <svg class="octicon octicon-law mr-1" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"></path></svg>GPL-3.0
+        </span>
+
+
+        Updated <relative-time datetime="2018-04-23T12:32:44Z" title="Apr 23, 2018, 7:32 AM CDT">3 hours ago</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/SimulatorDS" itemprop="name codeRepository">
+        SimulatorDS</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          PyTango device server for simulation/testing
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-70890190" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-70890190" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,2.0 33,2.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,6.0 54,1.0 57,1.0 60,1.0 63,1.0 66,1.0 69,2.0 72,1.0 75,1.0 78,10.0 81,1.0 84,1.0 87,5.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,2.0 123,1.0 126,1.0 129,1.0 132,5.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -7.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-70890190); mask: url(#sparkline-70890190)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="https://github.com/search?q=topic%3Apython+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:python,repository_id:70890190,repository_nwo:tango-controls/SimulatorDS,repository_public:true,repository_is_fork:false">
+            python
+          </a>
+          <a href="https://github.com/search?q=topic%3Asimulation+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:simulation,repository_id:70890190,repository_nwo:tango-controls/SimulatorDS,repository_public:true,repository_is_fork:false">
+            simulation
+          </a>
+          <a href="https://github.com/search?q=topic%3Apytango+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:pytango,repository_id:70890190,repository_nwo:tango-controls/SimulatorDS,repository_public:true,repository_is_fork:false">
+            pytango
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#3572A5;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Python
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/SimulatorDS/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          2
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/SimulatorDS/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          3
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-04-23T10:05:38Z" title="Apr 23, 2018, 5:05 AM CDT">6 hours ago</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/dsc" itemprop="name codeRepository">
+        dsc</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          SOurce code for device classes catalogue maintained on tango-controls.org
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-95218117" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-95218117" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,6.0 30,1.0 33,1.0 36,1.0 39,8.0 42,2.0 45,1.0 48,1.0 51,4.0 54,1.0 57,1.0 60,2.0 63,4.0 66,3.0 69,1.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,6.0 99,1.0 102,2.0 105,1.0 108,1.0 111,1.0 114,1.0 117,5.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,3.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -8.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-95218117); mask: url(#sparkline-95218117)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#3572A5;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Python
+        </span>
+
+
+
+        Updated <relative-time datetime="2018-04-21T03:58:47Z" title="Apr 20, 2018, 10:58 PM CDT">3 days ago</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/labview-binding" itemprop="name codeRepository">
+        labview-binding</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          This is the LabVIEW client and server API for Tango
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-74567403" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-74567403" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,1.0 63,1.0 66,1.0 69,1.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,2.0 153,3.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -11.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-74567403); mask: url(#sparkline-74567403)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#f34b7d;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C++
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/labview-binding/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          4
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/labview-binding/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          1
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-04-19T10:05:29Z" title="Apr 19, 2018, 5:05 AM CDT">4 days ago</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/PANIC" itemprop="name codeRepository">
+        PANIC</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          PANIC, python-based Alarms for Tango Control System
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-68825308" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-68825308" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,9.75 6,11.5 9,5.38 12,11.5 15,1.0 18,3.63 21,1.0 24,8.0 27,2.75 30,18.5 33,9.75 36,27.25 39,1.0 42,1.0 45,1.0 48,7.13 51,5.38 54,10.63 57,17.63 60,12.38 63,29.0 66,17.63 69,4.5 72,2.75 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,5.38 132,1.88 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, 2.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-68825308); mask: url(#sparkline-68825308)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#3572A5;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Python
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/PANIC/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          2
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/PANIC/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          5
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-04-17T08:17:50Z" title="Apr 17, 2018, 3:17 AM CDT">6 days ago</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/tango-doc" itemprop="name codeRepository">
+        tango-doc</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          The official documentation for Tango controls
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-69636146" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-69636146" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,6.76 3,29.0 6,8.82 9,1.8199999999999998 12,3.47 15,5.12 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,2.65 39,1.0 42,3.06 45,1.8199999999999998 48,2.24 51,1.0 54,1.8199999999999998 57,8.41 60,5.12 63,2.24 66,2.24 69,1.41 72,1.0 75,1.41 78,1.0 81,1.0 84,1.0 87,5.53 90,1.8199999999999998 93,2.65 96,1.8199999999999998 99,4.29 102,1.8199999999999998 105,1.0 108,1.0 111,1.41 114,1.0 117,3.06 120,10.06 123,6.35 126,3.47 129,1.0 132,1.0 135,1.0 138,1.0 141,2.24 144,1.0 147,1.0 150,1.41 153,1.41 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, 2.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-69636146); mask: url(#sparkline-69636146)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#3D6117;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          TeX
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/tango-doc/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          6
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/tango-doc/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          5
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-04-16T20:15:54Z" title="Apr 16, 2018, 3:15 PM CDT">7 days ago</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/pytango" itemprop="name codeRepository">
+        pytango</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Python binding to Tango C++
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-27967182" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-27967182" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.76 3,1.0 6,29.0 9,1.0 12,1.0 15,2.51 18,1.0 21,6.3 24,13.11 27,1.0 30,5.54 33,1.0 36,1.0 39,4.779999999999999 42,1.0 45,1.0 48,1.0 51,1.76 54,1.76 57,1.0 60,2.51 63,2.51 66,5.54 69,2.51 72,1.0 75,1.0 78,1.76 81,1.0 84,1.76 87,1.0 90,1.0 93,1.0 96,1.0 99,5.54 102,1.0 105,1.0 108,1.0 111,2.51 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,6.3 144,1.0 147,1.0 150,1.0 153,4.779999999999999 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, 2.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-27967182); mask: url(#sparkline-27967182)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="https://github.com/search?q=topic%3Apython+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:python,repository_id:27967182,repository_nwo:tango-controls/pytango,repository_public:true,repository_is_fork:false">
+            python
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:tango,repository_id:27967182,repository_nwo:tango-controls/pytango,repository_public:true,repository_is_fork:false">
+            tango
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#3572A5;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Python
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/pytango/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          24
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/pytango/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          22
+        </a>
+
+        <span class="mr-3">
+          <svg class="octicon octicon-law mr-1" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"></path></svg>LGPL-3.0
+        </span>
+
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/pytango/issues?q=label%3A%22help+wanted%22+is%3Aissue+is%3Aopen">
+          1 issue
+          needs help
+        </a>
+
+        Updated <relative-time datetime="2018-04-16T16:00:50Z" title="Apr 16, 2018, 11:00 AM CDT">7 days ago</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/igorpro-binding" itemprop="name codeRepository">
+        igorpro-binding</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          This is the Igor Pro client API for Tango
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-75382824" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-75382824" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,1.0 63,1.0 66,1.0 69,1.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,3.0 114,1.0 117,1.0 120,3.0 123,2.0 126,1.0 129,1.0 132,2.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,6.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -9.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-75382824); mask: url(#sparkline-75382824)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#f34b7d;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C++
+        </span>
+
+        <span class="mr-3">
+          <svg class="octicon octicon-law mr-1" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"></path></svg>BSD-3-Clause
+        </span>
+
+
+        Updated <relative-time datetime="2018-04-14T10:47:50Z" title="Apr 14, 2018, 5:47 AM CDT">9 days ago</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/PyTangoArchiving" itemprop="name codeRepository">
+        PyTangoArchiving</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Python API for Tango Archiving System
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-63868982" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-63868982" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,11.0 18,1.0 21,3.0 24,2.0 27,5.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,2.0 54,2.0 57,1.0 60,4.0 63,4.0 66,5.0 69,1.0 72,1.0 75,4.0 78,1.0 81,1.0 84,2.0 87,12.0 90,3.0 93,4.0 96,1.0 99,5.0 102,1.0 105,1.0 108,5.0 111,1.0 114,18.0 117,10.0 120,1.0 123,1.0 126,1.0 129,15.0 132,5.0 135,1.0 138,1.0 141,6.0 144,1.0 147,7.0 150,16.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -3.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-63868982); mask: url(#sparkline-63868982)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#3572A5;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Python
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/PyTangoArchiving/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          3
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/PyTangoArchiving/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          2
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-04-12T17:04:25Z" title="Apr 12, 2018, 12:04 PM CDT">11 days ago</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/cppTango" itemprop="name codeRepository">
+        cppTango</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          TANGO kernel c++ implementation
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-67682672" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-67682672" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,3.0 3,2.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,2.0 24,1.0 27,1.0 30,1.0 33,2.0 36,4.0 39,1.0 42,1.0 45,2.0 48,1.0 51,1.0 54,1.0 57,2.0 60,6.0 63,2.0 66,1.0 69,1.0 72,1.0 75,3.0 78,2.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,6.0 99,1.0 102,1.0 105,1.0 108,1.0 111,5.0 114,2.0 117,1.0 120,3.0 123,2.0 126,1.0 129,6.0 132,4.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -9.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-67682672); mask: url(#sparkline-67682672)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="https://github.com/search?q=topic%3Akernel+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:kernel,repository_id:67682672,repository_nwo:tango-controls/cppTango,repository_public:true,repository_is_fork:false">
+            kernel
+          </a>
+          <a href="https://github.com/search?q=topic%3Acpp+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:cpp,repository_id:67682672,repository_nwo:tango-controls/cppTango,repository_public:true,repository_is_fork:false">
+            cpp
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:tango,repository_id:67682672,repository_nwo:tango-controls/cppTango,repository_public:true,repository_is_fork:false">
+            tango
+          </a>
+          <a href="https://github.com/search?q=topic%3Acpp-library+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:cpp-library,repository_id:67682672,repository_nwo:tango-controls/cppTango,repository_public:true,repository_is_fork:false">
+            cpp-library
+          </a>
+          <a href="https://github.com/search?q=topic%3Acppapi+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:cppapi,repository_id:67682672,repository_nwo:tango-controls/cppTango,repository_public:true,repository_is_fork:false">
+            cppapi
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango-controls+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:tango-controls,repository_id:67682672,repository_nwo:tango-controls/cppTango,repository_public:true,repository_is_fork:false">
+            tango-controls
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#f34b7d;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C++
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/cppTango/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          19
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/cppTango/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          17
+        </a>
+
+        <span class="mr-3">
+          <svg class="octicon octicon-law mr-1" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"></path></svg>LGPL-3.0
+        </span>
+
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/cppTango/issues?q=label%3A%22help+wanted%22+is%3Aissue+is%3Aopen">
+          1 issue
+          needs help
+        </a>
+
+        Updated <relative-time datetime="2018-04-10T15:17:00Z" title="Apr 10, 2018, 10:17 AM CDT">13 days ago</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/fandango" itemprop="name codeRepository">
+        fandango</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Functional tools for PyTango / Tango Control System <a href="http://www.tango-controls.org/resources/howto/how-fandango/" rel="nofollow">http://www.tango-controls.org/resources/howto/how-fandango/</a>
+
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-68813782" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-68813782" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,3.0 6,19.0 9,14.0 12,7.0 15,1.0 18,1.0 21,1.0 24,1.0 27,4.0 30,9.0 33,4.0 36,8.0 39,2.0 42,6.0 45,7.0 48,4.0 51,4.0 54,20.0 57,5.0 60,7.0 63,7.0 66,3.0 69,2.0 72,2.0 75,3.0 78,1.0 81,1.0 84,7.0 87,8.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,3.0 111,1.0 114,14.0 117,4.0 120,1.0 123,2.0 126,6.0 129,7.0 132,3.0 135,4.0 138,5.0 141,1.0 144,1.0 147,7.0 150,2.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -2.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-68813782); mask: url(#sparkline-68813782)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#3572A5;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Python
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/fandango/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          5
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/fandango/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          1
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-04-10T12:01:12Z" title="Apr 10, 2018, 7:01 AM CDT">13 days ago</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/pogo" itemprop="name codeRepository">
+        pogo</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Pogo is the TANGO code generator. It allows to define a TANGO class model.
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-74234685" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-74234685" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,17.0 48,1.0 51,1.0 54,1.0 57,2.0 60,11.0 63,1.0 66,3.0 69,3.0 72,3.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,12.0 114,1.0 117,1.0 120,3.0 123,1.0 126,1.0 129,4.0 132,1.0 135,1.0 138,4.0 141,1.0 144,3.0 147,6.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -4.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-74234685); mask: url(#sparkline-74234685)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#b07219;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Java
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/pogo/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          1
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/pogo/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          2
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-04-03T08:23:04Z" title="Apr 3, 2018, 3:23 AM CDT">20 days ago</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/jive" itemprop="name codeRepository">
+        jive</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Jive is a standalone JAVA application designed to browse and edit the static TANGO database.
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-74199446" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-74199446" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,8.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,6.0 48,1.0 51,1.0 54,1.0 57,1.0 60,1.0 63,1.0 66,1.0 69,1.0 72,1.0 75,1.0 78,1.0 81,4.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,4.0 141,2.0 144,2.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -8.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-74199446); mask: url(#sparkline-74199446)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#b07219;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Java
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/jive/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          3
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/jive/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          4
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-03-27T06:59:05Z" title="Mar 27, 2018, 1:59 AM CDT">27 days ago</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/TangoTest" itemprop="name codeRepository">
+        TangoTest</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          TangoTest device server. A famous TANGO server developed for testing.
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-68088471" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-68088471" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,1.0 63,1.0 66,1.0 69,1.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -12)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-68088471); mask: url(#sparkline-68088471)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#e34c26;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          HTML
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/TangoTest/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          3
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-03-21T08:35:42Z" title="Mar 21, 2018, 3:35 AM CDT">on Mar 21</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/atk" itemprop="name codeRepository">
+        atk</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          TangoATK is a collection of java-classes to help build applications which interact with Tango-devices.
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-74193716" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-74193716" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,20.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,13.0 24,1.0 27,1.0 30,15.0 33,16.0 36,2.0 39,3.0 42,4.0 45,9.0 48,5.0 51,4.0 54,1.0 57,1.0 60,15.0 63,4.0 66,4.0 69,10.0 72,7.0 75,4.0 78,4.0 81,1.0 84,1.0 87,1.0 90,5.0 93,4.0 96,1.0 99,4.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,4.0 123,7.0 126,7.0 129,1.0 132,1.0 135,1.0 138,1.0 141,4.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -2.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-74193716); mask: url(#sparkline-74193716)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#b07219;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Java
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/atk/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          3
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-03-20T09:41:51Z" title="Mar 20, 2018, 4:41 AM CDT">on Mar 20</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/JTango" itemprop="name codeRepository">
+        JTango</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          TANGO kernel Java implementation
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-68468431" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-68468431" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,4.859999999999999 3,1.0 6,7.76 9,1.0 12,1.0 15,6.79 18,1.0 21,6.79 24,1.0 27,2.9299999999999997 30,1.0 33,1.0 36,21.28 39,1.97 42,7.76 45,29.0 48,1.0 51,5.83 54,1.0 57,11.62 60,1.0 63,9.69 66,1.0 69,1.0 72,6.79 75,13.55 78,1.0 81,1.0 84,5.83 87,2.9299999999999997 90,1.0 93,1.97 96,1.0 99,2.9299999999999997 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,20.31 126,1.0 129,1.0 132,1.0 135,1.0 138,3.9 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, 2.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-68468431); mask: url(#sparkline-68468431)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="https://github.com/search?q=topic%3Ajava+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:java,repository_id:68468431,repository_nwo:tango-controls/JTango,repository_public:true,repository_is_fork:false">
+            java
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:tango,repository_id:68468431,repository_nwo:tango-controls/JTango,repository_public:true,repository_is_fork:false">
+            tango
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango-controls+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:tango-controls,repository_id:68468431,repository_nwo:tango-controls/JTango,repository_public:true,repository_is_fork:false">
+            tango-controls
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango-kernel-java+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:tango-kernel-java,repository_id:68468431,repository_nwo:tango-controls/JTango,repository_public:true,repository_is_fork:false">
+            tango-kernel-java
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#b07219;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Java
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/JTango/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          4
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/JTango/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          7
+        </a>
+
+        <span class="mr-3">
+          <svg class="octicon octicon-law mr-1" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"></path></svg>LGPL-3.0
+        </span>
+
+
+        Updated <relative-time datetime="2018-03-12T08:32:37Z" title="Mar 12, 2018, 3:32 AM CDT">on Mar 12</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/starter" itemprop="name codeRepository">
+        starter</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          This device server is able to control Tango device servers. 
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-74346079" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-74346079" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,3.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,3.0 57,1.0 60,1.0 63,1.0 66,1.0 69,1.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,4.0 120,1.0 123,2.0 126,1.0 129,1.0 132,1.0 135,4.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -10.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-74346079); mask: url(#sparkline-74346079)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#f34b7d;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C++
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/starter/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          1
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/starter/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          2
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-03-05T14:56:56Z" title="Mar 5, 2018, 8:56 AM CST">on Mar 5</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/cppTango-docs" itemprop="name codeRepository">
+        cppTango-docs</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Generated documentation for 
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-70227213" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-70227213" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,1.0 63,1.0 66,1.0 69,1.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,3.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -11.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-70227213); mask: url(#sparkline-70227213)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#e34c26;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          HTML
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/cppTango-docs/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          1
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-02-20T13:11:32Z" title="Feb 20, 2018, 7:11 AM CST">on Feb 20</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/atk-tuning" itemprop="name codeRepository">
+        atk-tuning</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-74200501" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-74200501" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,10.0 63,1.0 66,1.0 69,1.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,4.0 117,1.0 120,1.0 123,4.0 126,4.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -7.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-74200501); mask: url(#sparkline-74200501)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#b07219;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Java
+        </span>
+
+
+
+        Updated <relative-time datetime="2018-02-15T09:33:16Z" title="Feb 15, 2018, 3:33 AM CST">on Feb 15</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/Astor" itemprop="name codeRepository">
+        Astor</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Astor is a graphical Tango control system administration tool.
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-74070033" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-74070033" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,5.0 3,4.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,7.0 51,1.0 54,10.0 57,4.0 60,1.0 63,1.0 66,1.0 69,1.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,3.0 120,1.0 123,6.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -7.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-74070033); mask: url(#sparkline-74070033)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="https://github.com/search?q=topic%3Asystem+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:system,repository_id:74070033,repository_nwo:tango-controls/Astor,repository_public:true,repository_is_fork:false">
+            system
+          </a>
+          <a href="https://github.com/search?q=topic%3Amanager+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:manager,repository_id:74070033,repository_nwo:tango-controls/Astor,repository_public:true,repository_is_fork:false">
+            manager
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#b07219;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Java
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/Astor/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          2
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/Astor/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          1
+        </a>
+
+
+
+        Updated <relative-time datetime="2018-02-09T09:23:33Z" title="Feb 9, 2018, 3:23 AM CST">on Feb 9</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/jtango-maven-archetype" itemprop="name codeRepository">
+        jtango-maven-archetype</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Maven archetype for JTango
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-99323233" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-99323233" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,4.0 45,2.0 48,4.0 51,13.0 54,1.0 57,2.0 60,1.0 63,1.0 66,1.0 69,1.0 72,1.0 75,10.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,3.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -6.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-99323233); mask: url(#sparkline-99323233)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#b07219;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Java
+        </span>
+
+        <span class="mr-3">
+          <svg class="octicon octicon-law mr-1" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"></path></svg>LGPL-3.0
+        </span>
+
+
+        Updated <relative-time datetime="2017-12-06T10:25:29Z" title="Dec 6, 2017, 4:25 AM CST">on Dec 6, 2017</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/SettingsManager" itemprop="name codeRepository">
+        SettingsManager</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          A tool based on files to standardize and centralize the settings management for the control system.
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-75948074" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-75948074" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,8.0 9,1.0 12,1.0 15,1.0 18,1.0 21,3.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,5.0 63,4.0 66,8.0 69,1.0 72,6.0 75,10.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,4.0 96,7.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -7.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-75948074); mask: url(#sparkline-75948074)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#b07219;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Java
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/SettingsManager/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          1
+        </a>
+
+
+
+        Updated <relative-time datetime="2017-12-04T08:51:21Z" title="Dec 4, 2017, 2:51 AM CST">on Dec 4, 2017</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/GitHubBackup" itemprop="name codeRepository">
+        GitHubBackup</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          A simple script to backup an organization's GitHub repositories with issues and wikis
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-76025731" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-76025731" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,1.0 63,1.0 66,1.0 69,1.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,2.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -11.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-76025731); mask: url(#sparkline-76025731)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="https://github.com/search?q=topic%3Agithub+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:github,repository_id:76025731,repository_nwo:tango-controls/GitHubBackup,repository_public:true,repository_is_fork:false">
+            github
+          </a>
+          <a href="https://github.com/search?q=topic%3Aissues+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:issues,repository_id:76025731,repository_nwo:tango-controls/GitHubBackup,repository_public:true,repository_is_fork:false">
+            issues
+          </a>
+          <a href="https://github.com/search?q=topic%3Abackup+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:backup,repository_id:76025731,repository_nwo:tango-controls/GitHubBackup,repository_public:true,repository_is_fork:false">
+            backup
+          </a>
+          <a href="https://github.com/search?q=topic%3Ascript+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:script,repository_id:76025731,repository_nwo:tango-controls/GitHubBackup,repository_public:true,repository_is_fork:false">
+            script
+          </a>
+          <a href="https://github.com/search?q=topic%3Awiki+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:wiki,repository_id:76025731,repository_nwo:tango-controls/GitHubBackup,repository_public:true,repository_is_fork:false">
+            wiki
+          </a>
+          <a href="https://github.com/search?q=topic%3Aorganization+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:organization,repository_id:76025731,repository_nwo:tango-controls/GitHubBackup,repository_public:true,repository_is_fork:false">
+            organization
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#89e051;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Shell
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/GitHubBackup/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          1
+        </a>
+
+        <span class="mr-3">
+          <svg class="octicon octicon-law mr-1" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"></path></svg>GPL-3.0
+        </span>
+
+
+        Updated <relative-time datetime="2017-11-29T14:52:34Z" title="Nov 29, 2017, 8:52 AM CST">on Nov 29, 2017</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/VACCA" itemprop="name codeRepository">
+        VACCA</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          A Control System browser for TANGO-CONTROLS
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-72412263" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-72412263" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,3.0 24,1.0 27,3.0 30,1.0 33,2.0 36,2.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,2.0 57,1.0 60,1.0 63,5.0 66,1.0 69,1.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -10.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-72412263); mask: url(#sparkline-72412263)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#3572A5;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Python
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/VACCA/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          1
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/VACCA/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          2
+        </a>
+
+
+
+        Updated <relative-time datetime="2017-11-27T16:48:31Z" title="Nov 27, 2017, 10:48 AM CST">on Nov 27, 2017</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/rest-api" itemprop="name codeRepository">
+        rest-api</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Tango REST API specification
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-74521190" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-74521190" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,15.0 3,2.0 6,1.0 9,1.0 12,22.0 15,10.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,1.0 63,6.0 66,1.0 69,1.0 72,1.0 75,1.0 78,7.0 81,1.0 84,1.0 87,1.0 90,1.0 93,2.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -1.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-74521190); mask: url(#sparkline-74521190)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="https://github.com/search?q=topic%3Arest-api+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:rest-api,repository_id:74521190,repository_nwo:tango-controls/rest-api,repository_public:true,repository_is_fork:false">
+            rest-api
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:tango,repository_id:74521190,repository_nwo:tango-controls/rest-api,repository_public:true,repository_is_fork:false">
+            tango
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango-controls+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:tango-controls,repository_id:74521190,repository_nwo:tango-controls/rest-api,repository_public:true,repository_is_fork:false">
+            tango-controls
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango-controls-rest+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:tango-controls-rest,repository_id:74521190,repository_nwo:tango-controls/rest-api,repository_public:true,repository_is_fork:false">
+            tango-controls-rest
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#b07219;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Java
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/rest-api/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          5
+        </a>
+
+
+
+        Updated <relative-time datetime="2017-11-27T16:42:09Z" title="Nov 27, 2017, 10:42 AM CST">on Nov 27, 2017</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public fork" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/tangobox" itemprop="name codeRepository">
+        tangobox</a>
+      </h3>
+
+        <span class="f6 text-gray mb-1">
+          Forked from <a class="muted-link" href="https://github.com/3Controls/tangobox">3Controls/tangobox</a>
+        </span>
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          Upgrade of Tango-Box virtual machine
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-109720456" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-109720456" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,3.1 63,10.1 66,8.7 69,29.0 72,1.0 75,1.0 78,1.0 81,1.0 84,5.9 87,3.1 90,5.9 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, 2.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-109720456); mask: url(#sparkline-109720456)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#f34b7d;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C++
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/tangobox/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          2
+        </a>
+
+
+
+        Updated <relative-time datetime="2017-11-21T15:28:32Z" title="Nov 21, 2017, 9:28 AM CST">on Nov 21, 2017</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/C_Binding" itemprop="name codeRepository">
+        C_Binding</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-111423169" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-111423169" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,1.0 63,1.0 66,1.0 69,1.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,5.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -10.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-111423169); mask: url(#sparkline-111423169)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#555555;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C
+        </span>
+
+
+
+        Updated <relative-time datetime="2017-11-21T08:46:56Z" title="Nov 21, 2017, 2:46 AM CST">on Nov 21, 2017</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/TangoDatabase" itemprop="name codeRepository">
+        TangoDatabase</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-67738608" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-67738608" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,4.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,1.0 63,1.0 66,1.0 69,1.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -10.5)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-67738608); mask: url(#sparkline-67738608)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#f34b7d;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          C++
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/TangoDatabase/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          1
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/TangoDatabase/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          6
+        </a>
+
+
+
+        Updated <relative-time datetime="2017-11-16T10:06:56Z" title="Nov 16, 2017, 4:06 AM CST">on Nov 16, 2017</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/tango-idl" itemprop="name codeRepository">
+        tango-idl</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-67738368" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-67738368" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,2.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,1.0 63,1.0 66,1.0 69,1.0 72,5.0 75,2.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -10.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-67738368); mask: url(#sparkline-67738368)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#427819;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Makefile
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/tango-idl/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          1
+        </a>
+
+        <span class="mr-3">
+          <svg class="octicon octicon-law mr-1" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"></path></svg>LGPL-3.0
+        </span>
+
+
+        Updated <relative-time datetime="2017-10-19T15:48:40Z" title="Oct 19, 2017, 10:48 AM CDT">on Oct 19, 2017</relative-time>
+    </div>
+  </li>
+
+  
+
+  <li class="col-12 d-block width-full py-4 border-bottom public source" itemprop="owns" itemscope="" itemtype="http://schema.org/Code">
+    <div class="d-inline-block mb-1">
+      <h3>
+        <a href="https://github.com/tango-controls/itango" itemprop="name codeRepository">
+        itango</a>
+      </h3>
+
+
+    </div>
+
+    <div>
+        <p class="col-9 d-inline-block text-gray mb-2 pr-4" itemprop="description">
+          IPython extension for PyTango
+        </p>
+
+      <div class="col-3 float-right text-right">
+        
+<span class="d-inline-block tooltipped tooltipped-s" aria-label="Past year of activity">
+  <svg width="155" height="30">
+    <defs>
+      <lineargradient id="gradient-53671762" x1="0" x2="0" y1="1" y2="0">
+          <stop offset="10%" stop-color="#c6e48b"></stop>
+          <stop offset="33%" stop-color="#7bc96f"></stop>
+          <stop offset="66%" stop-color="#239a3b"></stop>
+          <stop offset="90%" stop-color="#196127"></stop>
+      </lineargradient>
+      <mask id="sparkline-53671762" x="0" y="0" width="155" height="28">
+        <polyline transform="translate(0, 28) scale(1,-1)" points="0,1.0 3,1.0 6,1.0 9,1.0 12,1.0 15,1.0 18,1.0 21,1.0 24,1.0 27,1.0 30,1.0 33,1.0 36,1.0 39,1.0 42,1.0 45,1.0 48,1.0 51,1.0 54,1.0 57,1.0 60,1.0 63,1.0 66,1.0 69,3.0 72,1.0 75,1.0 78,1.0 81,1.0 84,1.0 87,1.0 90,1.0 93,1.0 96,1.0 99,1.0 102,1.0 105,1.0 108,1.0 111,1.0 114,1.0 117,1.0 120,1.0 123,1.0 126,1.0 129,1.0 132,1.0 135,1.0 138,1.0 141,1.0 144,1.0 147,1.0 150,1.0 153,1.0 " fill="transparent" stroke="#8cc665" stroke-width="2">
+      </polyline></mask>
+    </defs>
+
+    <g transform="translate(0, -11.0)">
+      <rect x="0" y="-2" width="155" height="30" style="stroke: none; fill: url(#gradient-53671762); mask: url(#sparkline-53671762)"></rect>
+    </g>
+  </svg>
+</span>
+
+      </div>
+    </div>
+
+
+      <div class="topics-row-container col-9 d-inline-flex flex-wrap flex-items-center f6 my-1">
+          <a href="https://github.com/search?q=topic%3Aipython+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:ipython,repository_id:53671762,repository_nwo:tango-controls/itango,repository_public:true,repository_is_fork:false">
+            ipython
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango+org%3Atango-controls&amp;type=Repositories" class="topic-tag topic-tag-link f6 my-1" data-ga-click="Topic, repository list" data-octo-click="topic_click" data-octo-dimensions="topic:tango,repository_id:53671762,repository_nwo:tango-controls/itango,repository_public:true,repository_is_fork:false">
+            tango
+          </a>
+      </div>
+
+    <div class="f6 text-gray mt-2">
+
+          <span class="repo-language-color ml-0" style="background-color:#3572A5;"></span>
+        <span class="mr-3" itemprop="programmingLanguage">
+          Python
+        </span>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/itango/stargazers">
+          <svg aria-label="star" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+          3
+        </a>
+        <a class="muted-link mr-3" href="https://github.com/tango-controls/itango/network">
+          <svg aria-label="fork" class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          3
+        </a>
+
+
+
+        Updated <relative-time datetime="2017-10-04T16:10:38Z" title="Oct 4, 2017, 11:10 AM CDT">on Oct 4, 2017</relative-time>
+    </div>
+  </li>
+
+
+
+<div class="paginate-container" data-pjax="">
+  <div class="pagination"><span class="previous_page disabled">Previous</span> <em class="current">1</em> <a rel="next" href="https://github.com/tango-controls?page=2">2</a> <a class="next_page" rel="next" href="https://github.com/tango-controls?page=2">Next</a></div>
+</div>
+
+  </div>
+</div>
+
+<div class="col-4 float-right pl-4">
+    <div class="Box mb-3">
+    <div class="Box-body">
+      <h4 class="f4 mb-2 text-normal">Top languages</h4>
+        <a class="no-wrap text-gray d-inline-block muted-link mt-2" href="https://github.com/tango-controls?language=java">
+            <span class="repo-language-color ml-0" style="background-color:#b07219;"></span>
+          <span class="mr-2">Java</span>
+        </a>
+        <a class="no-wrap text-gray d-inline-block muted-link mt-2" href="https://github.com/tango-controls?language=c%2B%2B">
+            <span class="repo-language-color ml-0" style="background-color:#f34b7d;"></span>
+          <span class="mr-2">C++</span>
+        </a>
+        <a class="no-wrap text-gray d-inline-block muted-link mt-2" href="https://github.com/tango-controls?language=python">
+            <span class="repo-language-color ml-0" style="background-color:#3572A5;"></span>
+          <span class="mr-2">Python</span>
+        </a>
+        <a class="no-wrap text-gray d-inline-block muted-link mt-2" href="https://github.com/tango-controls?language=shell">
+            <span class="repo-language-color ml-0" style="background-color:#89e051;"></span>
+          <span class="mr-2">Shell</span>
+        </a>
+        <a class="no-wrap text-gray d-inline-block muted-link mt-2" href="https://github.com/tango-controls?language=html">
+            <span class="repo-language-color ml-0" style="background-color:#e34c26;"></span>
+          <span class="mr-2">HTML</span>
+        </a>
+    </div>
+  </div>
+
+
+    <div class="Box mb-3">
+    <div class="Box-body">
+      <div class="d-inline-flex flex-justify-between flex-items-baseline width-full mb-2">
+        <h4 class="f4 text-normal">Most used topics</h4>
+      </div>
+      <div class="d-inline-flex flex-wrap">
+          <a href="https://github.com/search?q=topic%3Atango+org%3Atango-controls+fork%3Atrue" class="topic-tag topic-tag-link" data-ga-click="Topic, org profile" data-octo-click="topic_click" data-octo-dimensions="topic:tango,org:tango-controls">
+            tango
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango-controls+org%3Atango-controls+fork%3Atrue" class="topic-tag topic-tag-link" data-ga-click="Topic, org profile" data-octo-click="topic_click" data-octo-dimensions="topic:tango-controls,org:tango-controls">
+            tango-controls
+          </a>
+          <a href="https://github.com/search?q=topic%3Apython+org%3Atango-controls+fork%3Atrue" class="topic-tag topic-tag-link" data-ga-click="Topic, org profile" data-octo-click="topic_click" data-octo-dimensions="topic:python,org:tango-controls">
+            python
+          </a>
+          <a href="https://github.com/search?q=topic%3Arest-api+org%3Atango-controls+fork%3Atrue" class="topic-tag topic-tag-link" data-ga-click="Topic, org profile" data-octo-click="topic_click" data-octo-dimensions="topic:rest-api,org:tango-controls">
+            rest-api
+          </a>
+          <a href="https://github.com/search?q=topic%3Atango-controls-rest+org%3Atango-controls+fork%3Atrue" class="topic-tag topic-tag-link" data-ga-click="Topic, org profile" data-octo-click="topic_click" data-octo-dimensions="topic:tango-controls-rest,org:tango-controls">
+            tango-controls-rest
+          </a>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="Box mb-3">
+      <div class="Box-body">
+        <a class="d-block text-gray-dark" href="https://github.com/orgs/tango-controls/people" data-ga-click="Orgs, go to people, location:profile people module; text:People">
+          <span class="float-right f5 text-gray">
+            4
+            <svg class="octicon octicon-chevron-right" viewBox="0 0 8 16" version="1.1" width="8" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3z"></path></svg>
+          </span>
+          <h4 class="f4 text-normal mb-3">People</h4>
+        </a>
+        <div class="member-avatar-group d-flex flex-wrap">
+              <a href="https://github.com/bourtemb" class="member-avatar" data-ga-click="Orgs, go to person, location:profile people module; text:username">
+                <img class="avatar" src="./Valiton_files/16306867" width="48" height="48" alt="@bourtemb">
+              </a>
+              <a href="https://github.com/chedburgh" class="member-avatar" data-ga-click="Orgs, go to person, location:profile people module; text:username">
+                <img class="avatar" src="./Valiton_files/4125258" width="48" height="48" alt="@chedburgh">
+              </a>
+              <a href="https://github.com/Ingvord" class="member-avatar" data-ga-click="Orgs, go to person, location:profile people module; text:username">
+                <img class="avatar" src="./Valiton_files/11678364" width="48" height="48" alt="@Ingvord">
+              </a>
+              <a href="https://github.com/nleclercq" class="member-avatar" data-ga-click="Orgs, go to person, location:profile people module; text:username">
+                <img class="avatar" src="./Valiton_files/19185982" width="48" height="48" alt="@nleclercq">
+              </a>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+    </div>
+  </div>
+</div>
+
+      </div>
+      <div class="modal-backdrop js-touch-events"></div>
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">© 2018 <span title="0.29900s from unicorn-3421510253-jgxfk">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com/">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com/">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com/" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com/" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha512-yNr0q+cdUZ7oyTrEbVbhiYGFYmrAMbaxySSMyAyKD/aeBDYeT5Ljsi7D5VN2pTojNgRVWAwNwv1ub03StbDwhg==" type="application/javascript" src="./Valiton_files/frameworks-cae483278a9c7126c25f62f25f2cfb95.js.download"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-ye4EafjDvOAIkF9KV7pLLUsf83I7Rk57ZBU1Hj45Hiud5CmqjUizlns279JE1EJr5eayIIZgIFqTDlXef+kRJw==" type="application/javascript" src="./Valiton_files/github-5802c26aab1b340dbc84b4acfa2756fc.js.download"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="https://github.com/tango-controls">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="https://github.com/tango-controls">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  
+
+</body></html>
